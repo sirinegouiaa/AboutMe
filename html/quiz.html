@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Quiz</title>
+    <script>
+        function bienvenue() {
+            alert('Bienvenue dans mon propre site !');
+        }
+    </script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="../assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="../assets/css/owl.css" />
+    <link rel="stylesheet" href="../assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+        <!-- Sidebar Menu -->
+        <div class="responsive-nav">
+          <i class="fa fa-bars" id="menu-toggle"></i>
+          <div id="menu" class="menu">
+            <i class="fa fa-times" id="menu-close"></i>
+            <div class="container">
+              <div class="image">
+                <a href="#"><img src="../images/1.jpg" /></a>
+              </div>
+              <div class="author-content">
+                <h4>Sirine gouiaa</h4>
+                <span>Etudiante génie informatique</span>
+              </div>
+              <nav class="main-nav" role="navigation">
+                <ul class="main-menu">
+                  <li><a href="../index.html">A propos de moi</a></li>
+                  <li><a href="../html/parcour.html">Parcours académique</a></li>
+                  <li><a href="../index.html">Compétences informatiques maîtrisées</a></li>
+                  <li><a href="../index.html">Stages</a></li>
+                  <li><a href="../html/passion.html">passions</a></li>
+                  <li><a href="../index.html">Manifestations</a></li>
+                  <li><a href="../html/temoignage.html"> Témoignage sur l’IIT</a></li>
+                  <li><a href="../index.html">Contactez-moi</a></li>
+                </ul>
+              </nav>
+      
+                  <div class="social-network">
+                    <ul class="soial-icons">
+                      <li>
+                        <a href="https://www.facebook.com/sirinegouiaa4/" target="_blank">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/feed/" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/sirine_gouiaa22/?hl=fr" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/sirinegouiaa?tab=repositories" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                      </li>  
+                      </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <script>
+            // Fonction pour afficher le message dans une fenêtre pop-up
+            function afficherMessage() {
+              alert("Si vous me connaissez vraiment bien, répondez à ce quiz pour tester vos connaissances sur moi.");
+            }
+          
+            // Appeler la fonction au chargement de la page (vous pouvez le déclencher autrement si nécessaire)
+            window.onload = afficherMessage;
+          </script>
+
+        <section class="section about-me" data-section="section1">
+            <div class="container">
+              <div class="section-heading">
+                <h2>Quiz </h2>
+                <div class="line-dec"></div>
+              </div>
+              <div id="quiz-container">
+                <div id="question-container"></div>
+               <form id="quizForm">
+  <fieldset>
+    <legend>Question 1: Quel est mon hobby ou passe-temps favori ?</legend>
+    <label><input type="radio" name="q1" value="incorrect"> Lecture</label>
+    <label><input type="radio" name="q1" value="correct"> Equitation</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 2: Quel est mon plat préféré ?</legend>
+    <label><input type="radio" name="q2" value="incorrect"> Pizza</label>
+    <label><input type="radio" name="q2" value="correct"> Pasta</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 3: Quelle est ma couleur préférée ?</legend>
+    <label><input type="radio" name="q3" value="correct"> Rouge</label>
+    <label><input type="radio" name="q3" value="incorrect"> Noir</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 4: Quel est le nom de mon animal de compagnie, si j'en ai un ?</legend>
+    <label><input type="radio" name="q4" value="incorrect"> Rex</label>
+    <label><input type="radio" name="q4" value="correct"> Panita</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 5: Quel est mon signe astrologique ?</legend>
+    <label><input type="radio" name="q5" value="incorrect"> Lion</label>
+    <label><input type="radio" name="q5" value="correct"> Poisson</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 6: Suis-je une personne artistique ?</legend>
+    <label><input type="radio" name="q6" value="correct"> Oui</label>
+    <label><input type="radio" name="q6" value="incorrect">Non</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 7:Est-ce que j’aime cuisiner ?</legend>
+    <label><input type="radio" name="q7" value="incorrect"> Oui</label>
+    <label><input type="radio" name="q7" value="correct"> Non</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 8: Quel est mon genre de musique préféré ?</legend>
+    <label><input type="radio" name="q8" value="incorrect"> Français</label>
+    <label><input type="radio" name="q8" value="correct"> Arabic</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 9: Est-ce que j’aime les jeux vidéo ?</legend>
+    <label><input type="radio" name="q9" value="incorrect"> Oui</label>
+    <label><input type="radio" name="q9" value="correct"> Non</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 10: Est-ce que je regarde des émissions de télévision ?</legend>
+    <label><input type="radio" name="q10" value="incorrect"> Oui</label>
+    <label><input type="radio" name="q10" value="correct"> Non</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 11: Combien de frères et sœurs est-ce que j’ai ?</legend>
+    <label><input type="radio" name="q11" value="correct"> 0</label>
+    <label><input type="radio" name="q11" value="incorrect"> 1</label>
+    <label><input type="radio" name="q11" value="incorrect"> 2</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 12: Quel est mon mois préféré de l’année ?</legend>
+    <label><input type="radio" name="q12" value="incorrect"> Janvier</label>
+    <label><input type="radio" name="q12" value="correct"> Fevrier</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 13: Est-ce que je suis plutôt thé ou café ?</legend>
+    <label><input type="radio" name="q13" value="incorrect"> Thé</label>
+    <label><input type="radio" name="q13" value="correct"> Café</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Question 14: Est-ce que j’ai un compte Tik-Tok ?</legend>
+    <label><input type="radio" name="q14" value="correct"> Oui</label>
+    <label><input type="radio" name="q14" value="incorrect"> Non</label>
+  </fieldset>
+
+  <!-- Ajoutez d'autres questions ici -->
+
+  <button type="button" onclick="calculerNote()">Valider le Quiz</button>
+</form>
+
+<div id="resultat" style="display:none;">
+  <h2>Résultat du Quiz</h2>
+  <p>Votre note est : <span id="note"></span>/14</p>
+</div>
+
+<script>
+  function calculerNote() {
+    // Définissez les réponses correctes pour chaque question
+    const reponsesCorrectes = {
+      q1: "correct",
+      q2: "correct",
+      q3: "correct",
+      q4: "correct",
+      q5: "correct",
+      q6: "correct",
+      q7: "correct",
+      q8: "correct",
+      q9: "correct",
+      q10: "correct",
+      q11: "correct",
+      q12: "correct",
+      q13: "correct",
+      q14: "correct"
+    };
+
+    // Initialiser la note et les réponses correctes
+    let note = 0;
+    const reponsesUtilisateur = {};
+
+    // Parcourir toutes les questions du formulaire
+    const questions = document.querySelectorAll('input[type="radio"]:checked');
+    questions.forEach(question => {
+      const nomQuestion = question.name;
+      const valeurReponse = question.value;
+
+      // Stocker la réponse de l'utilisateur
+      reponsesUtilisateur[nomQuestion] = valeurReponse;
+
+      // Vérifier si la réponse est correcte
+      if (reponsesCorrectes[nomQuestion] === valeurReponse) {
+        note++;
+      }
+    });
+
+    // Afficher les résultats
+    afficherResultat(note, reponsesCorrectes);
+  }
+
+  function afficherResultat(note, reponsesCorrectes) {
+    // Cacher le formulaire
+    document.getElementById("quizForm").style.display = "none";
+
+    // Afficher le résultat
+    document.getElementById("resultat").style.display = "block";
+
+    // Afficher la note
+    document.getElementById("note").textContent = note;
+
+    
+  }
+</script>
+
+</body>
+</html>
